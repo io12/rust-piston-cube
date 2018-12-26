@@ -1,0 +1,12 @@
+[package]
+name = "piston-cube"
+version = "0.1.0"
+authors = ["Benjamin Levy <blevy@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+piston_window = "0.85.0"
+vecmath = "0.3.1"
+camera_controllers = "0.26.0"
+gfx = "0.17.1"
+shader_version = "0.3.0"
