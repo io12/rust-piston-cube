@@ -618,17 +618,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "piston-cube"
-version = "0.1.0"
-dependencies = [
- "camera_controllers 0.26.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "gfx 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "piston_window 0.85.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "shader_version 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "vecmath 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "piston-float"
 version = "0.3.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -904,6 +893,17 @@ dependencies = [
 name = "read_color"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "rust-piston-cube"
+version = "0.1.0"
+dependencies = [
+ "camera_controllers 0.26.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gfx 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "piston_window 0.85.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "shader_version 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "vecmath 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
 
 [[package]]
 name = "rustc_version"
